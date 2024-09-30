@@ -19,7 +19,7 @@ export const cardData = [
   {
     image: "/img/1.png",
     heading: "ಗೆಲ್ತಿಯಾ",
-    subHeading: "ಇಲ್ಲಂದ್ರೆ ಕಲಿತಿಯಾ",
+    subHeading: "ಇಲ್ಲಾ ಅಂದ್ರೆ ಕಲಿತಿಯಾ",
   },
   {
     image: "/img/2.png",
@@ -29,7 +29,7 @@ export const cardData = [
   {
     image: "/img/3.png",
     heading: "ಗೆದ್ದಿಲ್ಲ ಅಂದ್ರೆ",
-    subHeading: "ಇನ್ನೂ ಮುಗಿಲಿಲ್ಲ",
+    subHeading: "ಇನ್ನೂ ಮುಗಿದಿಲ್ಲ",
   },
   {
     image: "/img/4.png",
@@ -43,7 +43,7 @@ export const cardData = [
   },
   {
     image: "/img/6.png",
-    heading: "ರೂಟ್ ಚನ್ನಾಗಿದ್ರೆ",
+    heading: "ರೂಟ್ ಚೆನ್ನಾಗಿದ್ರೆ",
     subHeading: "ಫ್ರೂಟ್ ಸಿಗೋದು",
   },
 ];
