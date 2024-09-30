@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Drag = ({ val, reference }) => {
   return (
     <motion.div
-      className="w-[20vw] h-[25vw] rounded-3xl pt-8 pb-2 px-3 bg-zinc-800/90 text-zinc-100 flex-shrink-0 max-sm:w-full max-sm:h-full flex flex-col "
+      className="w-[20vw] h-96 rounded-3xl pt-8 pb-2 px-3 flex flex-col items-center justify-between bg-zinc-800/90 text-zinc-100 flex-shrink-0 max-sm:w-full max-sm:h-full "
       drag
       dragConstraints={reference}
       dragTransition={{
@@ -12,7 +12,7 @@ const Drag = ({ val, reference }) => {
       }}
       dragElastic={0.5}
     >
-      <h1 className="font-extrabold text-3xl text-center max-sm:text-xl">
+      <h1 className="font-extrabold text-2xl text-center max-sm:text-xl">
         {val.title}
       </h1>
       <div className="mt-4 bg-sky-700/90 p-2 rounded-3xl max-sm:mt-2 max-sm:text-sm">
